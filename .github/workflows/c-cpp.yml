@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: apt
-      run: sudo apt update & sudo apt install gcc-multilib g++-multilib
+      run: sudo apt update & sudo apt-get install gcc-4.8-multilib g++-4.8-multilib
     - name: chmod
       run: chmod 777 premake5
     - name: premake
