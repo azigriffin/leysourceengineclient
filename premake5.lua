@@ -11,7 +11,7 @@ solution "leysourceengineclient"
    vectorextensions "SSE2"
    floatingpoint "Fast"
 
-   if os.istarget("linux") or os.istarget("macosx") then
+   if os.istarget("macosx") then
       buildoptions {"-m32 -fPIC -ldl -lstdc++"}
       linkoptions  {"-m32 -fPIC -ldl -lstdc++"}
    end
