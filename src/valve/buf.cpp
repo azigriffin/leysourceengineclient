@@ -9,7 +9,7 @@
 #include <memory>
 #include <assert.h>
 
-#include <*intrin.h>
+#include <x86intrin.h>
 #include "buf.h"
 #include "../../deps/osw/SteamTypes.h"
 
