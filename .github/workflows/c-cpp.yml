@@ -18,7 +18,7 @@ jobs:
     - name: chmod
       run: chmod 777 premake5
     - name: premake
-      run: ./premake5 gmake2
+      run: ./premake5 --file=premake5.lua gmake2
     - name: make
       run: make -C project
     - name: make check
