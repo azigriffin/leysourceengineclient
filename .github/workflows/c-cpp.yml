@@ -17,9 +17,9 @@ jobs:
       run: chmod 777 premake5
     - name: premake
       run: ./premake5 gmake2
-    - name: make -C project
-      run: make
+    - name: make
+      run: make -C project
     - name: make check
-      run: make check
+      run: make check -C project
     - name: make distcheck
-      run: make distcheck
+      run: make distcheck -C project
