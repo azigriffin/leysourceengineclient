@@ -1,4 +1,4 @@
-//========= Copyright © 1996-2005, Valve Corporation, All rights reserved. ============//
+//========= Copyright Â© 1996-2005, Valve Corporation, All rights reserved. ============//
 //
 // Purpose:
 //
@@ -9,7 +9,7 @@
 #include <memory>
 #include <assert.h>
 
-#include <intrin.h>
+#include <*intrin.h>
 #include "buf.h"
 #include "../../deps/osw/SteamTypes.h"
 
